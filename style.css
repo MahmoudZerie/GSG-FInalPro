@@ -402,6 +402,7 @@ deal .image img{
 	padding: 2rem;
 	text-align: center;
 	cursor: pointer;
+	margin: 2rem 0;
 }
 .reviews .reviews-slider .box:hover{
 	border: var(--border-hover);
@@ -428,10 +429,38 @@ deal .image img{
 	color: var(--green);
 }
 
-
-
-
-
+.blogs .blogs-slider .box{
+	margin: 2rem 0;
+	border: var(--border);
+}
+.blogs .blogs-slider .box:hover{
+	border: var(--border-hover);
+}
+.blogs .blogs-slider .box .image{
+	height: 25rem;
+	width: 100%;
+	overflow: hidden;
+}
+.blogs .blogs-slider .box .image img{
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+}
+.blogs .blogs-slider .box:hover .image img{
+	transform: scale(1.1);
+}
+.blogs .blogs-slider .box .image .content{
+	padding: 1.5rem;
+}
+.blogs .blogs-slider .box .content h3{
+	font-size: 2.2rem;
+	color: var(--black);
+	padding-bottom:.5rem;
+}
+.blogs .blogs-slider .box .content p{
+	font-size: 1.4rem;
+	color: var(--light-color);
+}
 
 
 
